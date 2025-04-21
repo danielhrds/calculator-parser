@@ -13,7 +13,7 @@ export enum TokenType {
   TokenType_OpenParenthesis,
   TokenType_CloseParenthesis
 }
-1
+
 type Operator = '+' | '-' | '*' | '/' | '^'
 
 type Lexeme = `${number}` | Operator
